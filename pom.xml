@@ -88,7 +88,11 @@
 
 	<build>
 		<plugins>
-
+	<plugin>
+            <groupId>io.xc5</groupId>
+            <artifactId>xvsa-maven-plugin</artifactId>
+            <version>1.39</version>
+          </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
